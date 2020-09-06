@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{167860f6-7bbb-4972-8696-d85cd7658a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\List Dialog">
+      <UniqueIdentifier>{b37e9713-4218-45c8-8885-02044ab837c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Camera Dialog">
+      <UniqueIdentifier>{8cd93a99-3ce9-4c34-b299-1a9be6d587c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{5ff0e476-80eb-4379-99fd-0391f05a255c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\DB">
+      <UniqueIdentifier>{aa3bd428-e7c2-4046-a5d2-81fa9fccf345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Camera">
+      <UniqueIdentifier>{6f9b1134-ac7c-4cbf-9d18-30276230a6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Main">
+      <UniqueIdentifier>{1eb05139-cbc9-46e7-820e-d36c33403698}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserListDlg.h">
+      <Filter>App\List Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlUser.h">
+      <Filter>App\List Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDAO.h">
+      <Filter>Lib\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="MODBC.h">
+      <Filter>Lib\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Lib\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Webcam.h">
+      <Filter>Lib\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>App\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>App\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>App\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCWebcamDlg.h">
+      <Filter>App\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCWebcam.h">
+      <Filter>App\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CapturingDlg.h">
+      <Filter>App\Camera Dialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UserListDlg.cpp">
+      <Filter>App\List Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlUser.cpp">
+      <Filter>App\List Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDAO.cpp">
+      <Filter>Lib\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="MODBC.cpp">
+      <Filter>Lib\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Lib\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Webcam.cpp">
+      <Filter>Lib\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>App\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCWebcamDlg.cpp">
+      <Filter>App\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCWebcam.cpp">
+      <Filter>App\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CapturingDlg.cpp">
+      <Filter>App\Camera Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCWebcam.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCWebcam.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCWebcam.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
