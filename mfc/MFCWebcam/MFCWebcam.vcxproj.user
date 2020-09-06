@@ -4,7 +4,7 @@
     <RESOURCE_FILE>MFCWebcam.rc</RESOURCE_FILE>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerEnvironment>PATH=$(SolutionDir)\opencv\bin;%PATH%
+    <LocalDebuggerEnvironment>PATH=$(SolutionDir)\bin;%PATH%
 $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
